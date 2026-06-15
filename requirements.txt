@@ -1,27 +1,4 @@
-# Info-GO Contact List Builder
-
-A Streamlit app for building project contact lists using live Info-GO lookups.
-
-## Deploy on Streamlit Community Cloud
-
-1. Upload these files to the root of your GitHub repo:
-   - app.py
-   - requirements.txt
-   - .streamlit/config.toml
-   - README.md
-2. In Streamlit Community Cloud, set the main file path to `app.py`.
-3. In Advanced settings, choose Python 3.12.
-4. Deploy or reboot the app.
-
-## Important
-
-Your `requirements.txt` must contain package names only. Do not paste this README text into `requirements.txt`.
-
-Correct `requirements.txt`:
-
-```txt
 streamlit>=1.36
 pandas>=2.0
 requests>=2.31
 openpyxl>=3.1
-```
